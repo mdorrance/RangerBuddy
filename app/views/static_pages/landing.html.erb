@@ -1,61 +1,61 @@
+<div class="header-container">
+  <div class="video-container">
+    <!-- <video preload="true"  autoplay muted loop > -->
+      <%= video_tag("campfire.mp4", autoplay: true, loop: true, muted:true) %>
+    <!-- </video> -->
+  </div>
+  <h1 class="text-center">You're not alone!</h1>
+  <div class="text-center">
+    <a href="#" class="btn btn-danger">Connect with Local Ranger Buddies</a>
+  </div>
+</div
 
-    <!-- Header -->
-    <!-- <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Connect with Local Ranger Buddies</a>
-            </div>
-        </div>
-    </header> -->
-
-    <div class="header-container">
-      <div class="video-container">
-        <video preload="true"  autoplay muted loop >
-          <source src="/videos/campfire.mp4" type="video/mp4">
-        </video>
+<!-- Services Section -->
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">We've been there.</h2>
+        <h3 class="section-subheading text-muted">And we're ready to Listen, Talk and Help!</h3>
       </div>
-      <h1 class="text-center">You're not alone!</h1>
-      <div class="text-center">
-        <a href="#" class="btn btn-danger">Connect with Local Ranger Buddies</a>
-      </div>
-    </div
-
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-sm-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-sm-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-            </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <%= image_tag "thailand.jpg", class:"img-responsive" %>
+          <div class="caption">
+            <h3>Connect</h3>
+            <p>Since Battalion, you're life has moved forward. Take a step back and connect with those who know how and what you think and feel.</p>
+          </div>
         </div>
-    </section>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <%= image_tag "panama.jpg", class:"img-responsive" %>
+          <div class="caption">
+            <h3>Meet</h3>
+            <p>Schedule a rendevous to reconnect, vent or just meet new Rangers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <%= image_tag "counseling.jpg", class:"img-responsive" %>
+          <div class="caption">
+            <h3>Resources</h3>
+            <p>Public and private resources close to you ready to assist in any way that they can.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row text-center">
+      <h3>Resources Close to You!</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12269.943475677324!2d-105.0031458!3d39.7511983!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1442945679420" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
